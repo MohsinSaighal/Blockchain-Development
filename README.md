@@ -72,6 +72,18 @@ This will Install all dependencies used in this project
 ```bash
 $ truffle compile
 ```
+## Update Your .env file accordingly
+
+mnemonic = ''
+
+INFURA_ID = ''
+
+accounts = ''
+
+smart_address = ''
+
+PRIVATE_KEY = ''
+
 ## Deploy Contract to Live Network
 ```bash
 $ truffle migrate --network rinkeby
