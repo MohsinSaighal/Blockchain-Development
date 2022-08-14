@@ -12,7 +12,7 @@ module.exports = {
     hardhat: {},
       goerli: {
         url: provider,
-        accounts: [`0x${process.env.PRIVATE_KEY}`]
+        accounts: [`0x${privatekey}`]
     }
   },
 };
