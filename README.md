@@ -56,8 +56,10 @@ $ npm install --save dev hardhat
 ```
 After Successfull Completion of Truffle Installation Use Following Command in Installation Directory to Create Truffle Project
 
-``bash 
+```bash 
 $ npm install @openzeppelin/contracts
+```
+
 ```bash
 $ npm install ethers
 ```
