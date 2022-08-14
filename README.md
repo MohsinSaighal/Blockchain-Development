@@ -59,7 +59,7 @@ After Successfull Completion of Truffle Installation Use Following Command in In
 ``bash 
 $ npm install @openzeppelin/contracts
 ```bash
-$npm install ethers
+$ npm install ethers
 ```
 Create a sample project by running this command
 ```bash
