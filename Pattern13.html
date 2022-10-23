@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(i=5;i>=2;i--){
+         if(i!=5){
+            for(m=i+1;m<=5;m++){
+               document.write("&nbsp;&nbsp") 
+            }
+         }
+        for(j=i;j>=1;j--){
+         document.write("*")
+        }
+        if(i==2){
+        document.write("<br>")
+        for(k=1;k<=5;k++){
+            for(l=5-k;l>=1;l--){
+               document.write("&nbsp;&nbsp") 
+            }
+        for(j=1;j<=k;j++){
+         document.write("*")
+        }
+        document.write("<br>")
+        }
+        }
+        document.write("<br>")
+        }
+
+    </script>
+</body>
+</html>
